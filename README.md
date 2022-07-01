@@ -31,8 +31,7 @@
 
 ## 📑 License
 This repository is license under [GPL-3 License](https://github.com/grey423/Cilik-Ubot/blob/master/LICENSE)
-
-<p align="center">
-  </br></br>
+<p align="Left">
+  </br>
   <b>Copyright (c) 2022 - grey423 | Cilik-Ubot</b>
 </p>
