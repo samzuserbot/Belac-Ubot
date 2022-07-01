@@ -9,7 +9,9 @@
 ## Deploy With Heroku 💌
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<p align="center"><a href="https://risman.vercel.app/deploy-pyro.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="left"><a href="https://dashboard.heroku.com/new?template=https://github.com/PayXr/Asep-Userbot"> <img 
+src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="120" height="34.45" /></a></p>
+
 
 ## Config Vars 📑,
 
