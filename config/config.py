@@ -28,6 +28,10 @@ if not BLACKLIST_CHAT:
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "1.0@main"
 BRANCH = "main"
+GCAST_BL = getenv(
+    "GCAST_BL",
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL2hpZGFnYW5zL0NpbGlrLVVib3Q=").decode("utf-8"),
+)
 CHANNEL = getenv("CHANNEL", "CilikProject")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
