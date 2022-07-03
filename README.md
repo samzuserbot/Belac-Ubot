@@ -9,12 +9,12 @@
 ## Deploy With Heroku 💌
 
 <p align="left">
-<a href="https://telegram.dog/XTZ_HerokuBot?start=Z3JleTQyMy9DaWxpay1VYm90IG1haW4"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+<a href="https://telegram.dog/XTZ_HerokuBot?start=Z3JleTQyMy9DaWxpay1VYm90IG1haW4"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
 
-## Generate  String Sessions
+### Generate  String Sessions
 
 <p align="left">
-<a href="https/t.me/StringCilik_Bot"><img src="https://img.shields.io/badge/Generate%20String-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+<a href="https/t.me/StringCilik_Bot"><img src="https://img.shields.io/badge/Generate%20String-blue?style=for-the-badge&logo=telegram" width="175""/</a>  </p>
 
 ## Config Vars 📑
 
