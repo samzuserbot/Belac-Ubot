@@ -1,4 +1,4 @@
 # Cilik-PyroBot
 
 from .config import *
-from Config.config import BLACKLIST_GCAST
+from config.config import BLACKLIST_GCAST
