@@ -17,10 +17,10 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🎈")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d024319f8a45ac342b057.jpg")
 HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/262275bf87e1371d4de1a.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Cilik alive.")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
@@ -30,7 +30,7 @@ BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOT_VER = "1.0@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "CilikProject")
+CHANNEL = getenv("CHANNEL", "fortwentyvibes")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
@@ -38,7 +38,7 @@ GIT_TOKEN = getenv(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "CilikSupport")
+GROUP = getenv("GROUP", "cariteman_only")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
