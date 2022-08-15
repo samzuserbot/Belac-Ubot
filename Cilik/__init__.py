@@ -121,7 +121,7 @@ bot3 = (
         session_name=STRING_SESSION3,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="San/modules"),
     )
     if STRING_SESSION3
     else None
