@@ -16,10 +16,10 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **Cilik-Ubot Activated.**
+✅ **San-Ubot Activated.**
 
-**🏷️ Userbot Version -** `{}`
-**Ketik** `.cilik` **untuk Mengecheck Bot**
+**📍 Userbot Version -** `{}`
+**Ketik** `.alive` **untuk Mengecheck Bot**
 """
 
 
@@ -38,10 +38,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Cilik").info("Starting Cilik-Ubot")
-    LOGGER("Cilik").info(f"Total Clients = {len(bots)} Users")
+    LOGGER("San").info("Starting San-Ubot")
+    LOGGER("San").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("Cilik").info(f"Cilik-Ubot v{BOT_VER} ⚙️[⚡ Activated ⚡]")
+    LOGGER("San").info(f"San-Ubot v{BOT_VER} ⚙️[⚡ Activated ⚡]")
     LOOP.run_until_complete(main())
