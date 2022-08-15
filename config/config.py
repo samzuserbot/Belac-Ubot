@@ -6,7 +6,7 @@
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# Cilik-PyroBot
+# iSan-PyroBot
 
 from base64 import b64decode
 from distutils.util import strtobool
@@ -17,10 +17,10 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚡")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d024319f8a45ac342b057.jpg")
-HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/262275bf87e1371d4de1a.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "⚙️")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/4cef468dc46606b252835.mp4")
+HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/30d92c74e7579ab0281a6.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi,Saya San-Ubot🤖")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
@@ -41,7 +41,7 @@ GIT_TOKEN = getenv(
 GROUP = getenv("GROUP", "cariteman_only")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
+PMPERMIT_PIC = getenv("PMPERMIT_PIC", "True")
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
