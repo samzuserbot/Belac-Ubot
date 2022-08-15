@@ -1,5 +1,5 @@
 <h1 align="center"> 
-   🎈 San-Userbot 🎈
+   ⚡San-Userbot⚡
 </h1>
 
 <p align="center">
